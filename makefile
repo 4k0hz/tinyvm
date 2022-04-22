@@ -1,5 +1,5 @@
 CC = gcc
-CLFLAGS = -O2
+CFLAGS = -O2
 OBJS = $(wildcard src/*.c) $(wildcard src/*.h)
 
 %.o : %.c
