@@ -1,11 +1,11 @@
 #include "system.h"
-#include "byte_t.h"
+#include "byte.h"
 
 #define HEAP_SIZE 640000 // ought to be enough for everyone
 
-byte_t heap[HEAP_SIZE] = {0};
+byte heap[HEAP_SIZE] = {0};
 
-byte_t r1, r2, r3, r4, r5, r6, r7, r8;
+byte r1, r2, r3, r4;
 
 int main() {
     write(1, "Hello, world!\n", 15);
